@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Super Fun Random Calculator</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <script src="js/script.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Super Fun Random Calculator</h1>
+        </header>
+        <form id="calculatorBody">
+            <label for="num1">Number One:</label>
+            <input type="text" id="num1" name="numberOne" placeholder="Enter a number..." required>
+              
+            <label for="num2">Number Two:</label>
+            <input type="text" id="num2" name="numberTwo" placeholder="Enter another number..." required>
+                
+            <input type="submit" value="Press for Random Operation" id="calcButton" onclick="randomCalculator()">
+
+            <label for="num2">Result:</label>
+            <input type="text" id="result" name="result" disabled>
+
+            <input type="button" value="Reset" id="resetButton" onclick="resetForm()">
+        </form>
+    </body>
+</html>
