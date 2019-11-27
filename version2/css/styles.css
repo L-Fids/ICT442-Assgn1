@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    width:500px;
+    width:375px;
     padding: 5px 20px;
     margin: 10 auto 10 auto;
     border-radius: 5px;
@@ -15,18 +15,9 @@ h1 {
     font-size: 1.5em;
 }
 
-#calendarEntry {
-    width:500px;
+#calculatorBody {
+    width:375px;
     margin:auto;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-#calendarBody {
-    width:500px;
-    margin: 10 auto 10 auto;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
